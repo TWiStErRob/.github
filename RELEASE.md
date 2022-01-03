@@ -1,3 +1,21 @@
+# Release Process
+
+ 1. Draft a new release on GitHub
+    * "_Tag version_": `vx.y.z` @ Target: `master`
+    * "_Release title_": `x.y.z Two Word Summary` (e.g. biggest change / reason for release)
+    * "_Describe this release_": use the template from [Releases on GitHub](#projects-releases-on-github)
+ 1. Do the release (see project specific docs/release.md file)
+ 1. Publish drafted release on GitHub  
+    Note: _this will create a tag on `master`, equivalent to:_
+    ```shell
+    git checkout master
+    git tag vx.y
+    git push origin vx.y # or --tags
+    ```
+ 1. Close `x.y.z` milestone
+    * "_Due date_": release date
+    * "_Description_": link to Release on GitHub
+
 # Release Notes
 
 <img src="https://yuml.me/diagram/boring;dir:LR;scale:100/class/[%3C%3CGitHub%3E%3E;Release%7Cversion%20name;version%20code;(date);change%20descriptions;tag;artifacts],%20[%3C%3CWebsite%3E%3E;%23history%7Cversion%20name;date;minor%20changes],%20[%3C%3Cpublished%3E%3E;Release%20Notes%7Cversion%20name;date;major%20changes],%20[%3C%3CGitHub%3E%3E;Milestone%7Cversion;date;all%20changes],%20[%3C%3CGitHub%3E%3E;issue%7Cfeature%20description;problem%20details],%20[%3C%3CGitHub%3E%3E;PR%7Cimplementation%20details],%20[%3C%3CGitHub%3E%3E;diff%7Clist%20of%20changes%20without%20context],%20[%3C%3Cgit%3E%3E;commit%7Cdetails%20of%20change],%20[%23history]-[note:%20Historical%20*Release%20Notes*%20for%20the%20end%20users.%7Bbg:wheat%7D],%20[Release]%3C%3E-1..n%3E[Milestone],%20[Milestone]%3C%3E-1..n%3E[issue],%20[Milestone]%3C%3E-1..n%3E[PR],%20[diff]++-1..n%3E[commit],%20[issue]-0..1%3E[PR],%20[PR]%3C%3E-1..n%3E[commit],%20[Milestone]-.-%3E[Release],%20[Release]-.-%3E[Milestone],%20[Release]-.-%3E[%23history],%20[Release]-.-%3E[diff],%20[Release]-.-%3E[PR],%20[Release]-.-%3E[issue],%20[Release%20Notes]-.-%3E[%23history],%20[%23history]-.-%3E[Release],%20[commit]-.-%3E[issue],%20[commit]-.-%3E[PR],%20[PR]-.-%3E[issue],.png" />
