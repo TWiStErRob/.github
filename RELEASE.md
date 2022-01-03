@@ -1,16 +1,16 @@
-## Release Notes
+# Release Notes
 
 <img src="https://yuml.me/diagram/boring;dir:LR;scale:100/class/[%3C%3CGitHub%3E%3E;Release%7Cversion%20name;version%20code;(date);change%20descriptions;tag;artifacts],%20[%3C%3CWebsite%3E%3E;%23history%7Cversion%20name;date;minor%20changes],%20[%3C%3Cpublished%3E%3E;Release%20Notes%7Cversion%20name;date;major%20changes],%20[%3C%3CGitHub%3E%3E;Milestone%7Cversion;date;all%20changes],%20[%3C%3CGitHub%3E%3E;issue%7Cfeature%20description;problem%20details],%20[%3C%3CGitHub%3E%3E;PR%7Cimplementation%20details],%20[%3C%3CGitHub%3E%3E;diff%7Clist%20of%20changes%20without%20context],%20[%3C%3Cgit%3E%3E;commit%7Cdetails%20of%20change],%20[%23history]-[note:%20Historical%20*Release%20Notes*%20for%20the%20end%20users.%7Bbg:wheat%7D],%20[Release]%3C%3E-1..n%3E[Milestone],%20[Milestone]%3C%3E-1..n%3E[issue],%20[Milestone]%3C%3E-1..n%3E[PR],%20[diff]++-1..n%3E[commit],%20[issue]-0..1%3E[PR],%20[PR]%3C%3E-1..n%3E[commit],%20[Milestone]-.-%3E[Release],%20[Release]-.-%3E[Milestone],%20[Release]-.-%3E[%23history],%20[Release]-.-%3E[diff],%20[Release]-.-%3E[PR],%20[Release]-.-%3E[issue],%20[Release%20Notes]-.-%3E[%23history],%20[%23history]-.-%3E[Release],%20[commit]-.-%3E[issue],%20[commit]-.-%3E[PR],%20[PR]-.-%3E[issue],.png" />
 
-### Information sources
+## Information sources
  * Commits since last release in Git repository
  * Milestones in GitHub
    * Pull requests in GitHub associated with Milestones
    * Issues resolved in GitHub associated with Milestones
 
-### Deployment Targets
+## Deployment Targets
 
-#### Project Listing on my Website (`#history`)
+### Project Listing on my Website (`#history`)
 Under https://www.twisterrob.net/project/ each project has a "History" section.  
 **Target audience**: end users, tech savvy end users
 **Contents**:
@@ -34,7 +34,7 @@ Under https://www.twisterrob.net/project/ each project has a "History" section.
    * Experimental: ...
 ```
 
-#### User Release Notes
+### User Release Notes
 Published release notes (Google Play Store, Gradle Plugin Portal, etc.)  
 **Target audience**: end users  
 **Contents**:
@@ -62,7 +62,7 @@ Full listing: http://www.twisterrob.net/project/<project>/#history
  * Release date
  * Changes with links to PRs/Issues.
 
-#### Project's Releases on GitHub
+### Project's Releases on GitHub
 **Target audience**: tech-savvy end users, contributors  
 **Contents**:
  * Link to website
@@ -103,7 +103,7 @@ For the full list of changes see [release milestone][1] and [diff][2].
 [3]: https://www.twisterrob.net/project/?/#v00000000
 ```
 
-#### Project's Milestone on GitHub
+### Project's Milestone on GitHub
 Name of milestone: `vx.y.z`
 Date of milestone: release date
 Description of milestone:
