@@ -39,7 +39,7 @@ Under https://www.twisterrob.net/project/ each project has a "History" section.
 
 **Template** (Jekyll GFM):
 ```
-### [0.0.0#x](https://github.com/TWiStErRob/net.twisterrob.sun/milestone/0?closed=1) (yyyy-mm-dd)
+### [0.0.0#x](https://github.com/TWiStErRob/net.twisterrob.?/releases/tag/v0.0.0) (yyyy-mm-dd)
 {: #v00000000}
  * Feature: ...
  * Enhancement: ...
