@@ -94,10 +94,10 @@ Full listing: http://www.twisterrob.net/project/<project>/#history
 *Date*: yyyy-mm-dd
 *Version*: 0.0.0
 
-See also the [public release notes on my website][3].
-
 * **New**: ...major change...
 * **Breaking**: ...major change...
+
+See also the [public release notes on my website][3].
 
 ## Changes
 For the full list of changes see [release milestone][1] and [diff][2].
