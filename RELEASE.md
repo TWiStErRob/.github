@@ -104,7 +104,9 @@ For the full list of changes see [release milestone][1] and [diff][2].
 ```
 
 ### Project's Milestone on GitHub
-Name of milestone: `vx.y.z`
-Date of milestone: release date
-Description of milestone:
- * Link to release
+**Target audience**: contributors  
+**Contents**:
+ * Name of milestone: `vx.y.z`
+ * Date of milestone: release date
+ * Description of milestone:
+   * Link to Release on GitHub
