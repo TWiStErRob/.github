@@ -122,9 +122,9 @@ For the full list of changes see [release milestone][1] and [diff][2].
 [3]: https://www.twisterrob.net/project/?/#v00000000
 ```
 Steps after pasting:
-    * add links to PRs/commits for changes
-    * remove empty sections
-    * update version end date
+ * add links to PRs/commits for changes
+ * remove empty sections
+ * update version end date
 
 ### Project's Milestone on GitHub
 **Target audience**: contributors  
