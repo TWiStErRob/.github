@@ -30,7 +30,7 @@
 
 ### Project Listing on my Website (`#history`)
 Under https://www.twisterrob.net/project/ each project has a "History" section.  
-**Target audience**: end users, tech savvy end users
+**Target audience**: end users, tech savvy end users  
 **Contents**:
  * Release version: the name of the release, usually in `v0.0.0#x` format
  * Release date: the date the release was first publicly available.
