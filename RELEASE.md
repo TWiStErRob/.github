@@ -91,12 +91,13 @@ Full listing: http://www.twisterrob.net/project/<project>/#history
 **Template** (GFM):
 ```
 ## Release
+*Date*: yyyy-mm-dd
+*Version*: 0.0.0
+
 See also the [public release notes on my website][3].
 
 * **New**: ...major change...
 * **Breaking**: ...major change...
-
-*Development*: 2022-mm-dd – 2022-mm-dd
 
 ## Changes
 For the full list of changes see [release milestone][1] and [diff][2].
@@ -120,6 +121,10 @@ For the full list of changes see [release milestone][1] and [diff][2].
 [2]: https://github.com/TWiStErRob/net.twisterrob.?/compare/v0.0.0...v0.0.0
 [3]: https://www.twisterrob.net/project/?/#v00000000
 ```
+Steps after pasting:
+    * add links to PRs/commits for changes
+    * remove empty sections
+    * update version end date
 
 ### Project's Milestone on GitHub
 **Target audience**: contributors  
