@@ -91,6 +91,7 @@ Full listing: http://www.twisterrob.net/project/<project>/#history
 **Template** (GFM):
 ```
 ## Release
+<!-- TODO the day the release is published. -->
 *Date*: yyyy-mm-dd
 *Version*: 0.0.0
 
@@ -102,29 +103,28 @@ See also the [public release notes on my website][3].
 ## Changes
 For the full list of changes see [release milestone][1] and [diff][2].
 
-<!-- Each bullet point: `component: Title (#issue/#pr)` -->
+<!-- TODO Each bullet point: `component: Title (#issue/#pr)`. -->
 
 ### Breaking
- * ...
+ * TODO ...
 
 ### New
- * ...
+ * TODO ...
 
 ### Fixes
- * ...
+ * TODO ...
 
 ### Internal
- * ...
+ * TODO ...
 
-<!-- TODO update these links -->
+<!-- TODO Update these links. -->
 [1]: https://github.com/TWiStErRob/net.twisterrob.?/milestone/0?closed=1
 [2]: https://github.com/TWiStErRob/net.twisterrob.?/compare/v0.0.0...v0.0.0
 [3]: https://www.twisterrob.net/project/?/#v00000000
 ```
 Steps after pasting:
- * add links to PRs/commits for changes
+ * Fix TODOs
  * remove empty sections
- * update version end date
 
 ### Project's Milestone on GitHub
 **Target audience**: contributors  
