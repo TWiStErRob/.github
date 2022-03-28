@@ -16,6 +16,22 @@
     * "_Due date_": release date
     * "_Description_": link to Release on GitHub
 
+## Steps to build and publish an Android App
+
+1. Merge everything to `master` that needs to be in the release.
+    * Current active milestone might help to see what's missing.
+    * Review `version.properties` is right for the target release, if not, PR.
+1. Run `gradlew releaseRelease` to produce an APK and mapping file while on latest `master`.
+1. Create a new Release in the Alpha track.
+   * Upload the APK and the mapping file either to App Bundle Explorer or inline.
+   * Action any potential warnings or errors.
+   * Replace pre-populated release name (`<versionCode> (<versionName>)`) with just `<versionName>`. 
+   * Copy Release Notes from previous alpha or production release.
+   * Review and publish.
+1. Smoke test on a real device installed from Google Play Store.
+1. Promote to Production with 100% or staged rollout.
+
+
 # Release Notes
 
 <img src="https://yuml.me/diagram/boring;dir:LR;scale:100/class/[%3C%3CGitHub%3E%3E;Release%7Cversion%20name;version%20code;(date);change%20descriptions;tag;artifacts],%20[%3C%3CWebsite%3E%3E;%23history%7Cversion%20name;date;minor%20changes],%20[%3C%3Cpublished%3E%3E;Release%20Notes%7Cversion%20name;date;major%20changes],%20[%3C%3CGitHub%3E%3E;Milestone%7Cversion;date;all%20changes],%20[%3C%3CGitHub%3E%3E;issue%7Cfeature%20description;problem%20details],%20[%3C%3CGitHub%3E%3E;PR%7Cimplementation%20details],%20[%3C%3CGitHub%3E%3E;diff%7Clist%20of%20changes%20without%20context],%20[%3C%3Cgit%3E%3E;commit%7Cdetails%20of%20change],%20[%23history]-[note:%20Historical%20*Release%20Notes*%20for%20the%20end%20users.%7Bbg:wheat%7D],%20[Release]%3C%3E-1..n%3E[Milestone],%20[Milestone]%3C%3E-1..n%3E[issue],%20[Milestone]%3C%3E-1..n%3E[PR],%20[diff]++-1..n%3E[commit],%20[issue]-0..1%3E[PR],%20[PR]%3C%3E-1..n%3E[commit],%20[Milestone]-.-%3E[Release],%20[Release]-.-%3E[Milestone],%20[Release]-.-%3E[%23history],%20[Release]-.-%3E[diff],%20[Release]-.-%3E[PR],%20[Release]-.-%3E[issue],%20[Release%20Notes]-.-%3E[%23history],%20[%23history]-.-%3E[Release],%20[commit]-.-%3E[issue],%20[commit]-.-%3E[PR],%20[PR]-.-%3E[issue],.png" />
