@@ -1,41 +1,6 @@
 {
+  "description": "Default configuration for new onboardings."
   "extends": [
-    "config:base",
-    "group:monorepos",
-    "group:recommended",
-    ":disableDependencyDashboard"
-  ],
-  "ignorePaths": [],
-  "packageRules": [
-    {
-      "matchPackageNames": [
-        "org.gradle.kotlin.kotlin-dsl",
-        "net.twisterrob.root",
-        "net.twisterrob.quality"
-      ],
-      "enabled": false
-    },
-    {
-      "description": "Group together all dependencies from standard Kotlin and KotlinX, including coroutines.",
-      "matchPackagePrefixes": [
-        "org.jetbrains.kotlin:",
-        "org.jetbrains.kotlinx:"
-      ],
-      "groupName": "Kotlin"
-    },
-    {
-      "matchPackagePrefixes": [
-        "io.ktor:",
-      ],
-      "groupName": "ktor.io"
-    },
-    {
-      "description": "Group together all dependencies and plugin aliases from AGP.",
-      "matchPackagePrefixes": [
-        "com.android.tools.build:",
-        "com.android."
-      ],
-      "groupName": "Android Gradle Plugin"
-    }
+    "github>TWiStErRob/renovate-config"
   ]
 }
