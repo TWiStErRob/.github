@@ -1,6 +1,6 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"description": "Default configuration for new onboardings. See https://github.com/TWiStErRob/renovate-config#installation for more details."
+	"description": "Default configuration for new onboardings. See https://github.com/TWiStErRob/renovate-config#installation for more details.",
 	"extends": [
 		"github>TWiStErRob/renovate-config"
 	]
