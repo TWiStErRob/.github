@@ -1,14 +1,14 @@
 # Release Process
 
  1. Draft a new release on GitHub
-    * "_Tag version_": `vx.y.z` @ Target: `master`
+    * "_Tag version_": `vx.y.z` @ Target: `main`
     * "_Release title_": `x.y.z Two Word Summary` (e.g. biggest change / reason for release)
     * "_Describe this release_": use the template from [Releases on GitHub](#projects-releases-on-github)
  1. Do the release (see project specific docs/release.md file)
  1. Publish drafted release on GitHub  
-    Note: _this will create a tag on `master`, equivalent to:_
+    Note: _this will create a tag on `main`, equivalent to:_
     ```shell
-    git checkout master
+    git checkout main
     git tag vx.y
     git push origin vx.y # or --tags
     ```
@@ -18,10 +18,10 @@
 
 ## Steps to build and publish an Android App
 
-1. Merge everything to `master` that needs to be in the release.
+1. Merge everything to `main` that needs to be in the release.
     * Current active milestone might help to see what's missing.
     * Review `version.properties` is right for the target release, if not, PR.
-1. Run `gradlew releaseRelease` to produce an APK and mapping file while on latest `master`.
+1. Run `gradlew releaseRelease` to produce an APK and mapping file while on latest `main`.
 1. Create a new Release in the Alpha track.
    * Upload the APK and the mapping file either to App Bundle Explorer or inline.
    * Action any potential warnings or errors.
