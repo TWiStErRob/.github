@@ -21,7 +21,8 @@
 1. Merge everything to `main` that needs to be in the release.
     * Current active milestone might help to see what's missing.
     * Review `version.properties` is right for the target release, if not, PR.
-1. Run `gradlew releaseRelease` to produce an APK and mapping file while on latest `main`.
+1. Run `gradlew releaseRelease` to produce an APK and mapping file while on latest `main`.  
+   **Latest `main` is important, because the commit counter will influence the version name/version code.**
 1. Create a new Release in the Alpha track.
    * Upload the APK and the mapping file either to App Bundle Explorer or inline.
    * Action any potential warnings or errors.
