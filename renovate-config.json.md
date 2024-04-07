@@ -1,1 +1,1 @@
-There's no `renovate.config.json` here, instead there's a [`renovate-config` repository](https://github.com/TWiStErRob/renovate-config) for [shareable config presets](https://docs.renovatebot.com/config-presets/#organization-level-presets).
+There's no `renovate-config.json` here, instead there's a [`renovate-config` repository](https://github.com/TWiStErRob/renovate-config) for [shareable config presets](https://docs.renovatebot.com/config-presets/#organization-level-presets).
