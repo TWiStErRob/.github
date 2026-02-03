@@ -104,6 +104,7 @@ Full listing: http://www.twisterrob.net/project/<project>/#history
  * Development time range
  * Link to milestone
  * Full list of features with issue/PR links
+ * APK and release archive
 
 **Template** (GFM):
 ```
@@ -142,6 +143,7 @@ For the full list of changes see [release milestone][1] and [diff][2].
 Steps after pasting:
  * Fix TODOs
  * remove empty sections
+ * upload artifacts
 
 ### Project's Milestone on GitHub
 **Target audience**: contributors  
